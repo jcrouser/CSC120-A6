@@ -32,7 +32,7 @@ Write your `jUnit` tests inside `TrainTest.java`, using **assertions** to valida
 ### Train Class (4 tests)
 - Verify that a `Train` initializes correctly with a given number of `Car`s.
 - Ensure the `Train`’s total `Passenger` count updates as `Passenger`s board and leave.
-- Check that the `Train` does not exceed its maximum capacity.
+- Check that the `getCar(int i)` method returns the expected `Car`.
 - Test the `printManifest()` method to ensure it iterates through the `Train`s `Car`s correctly.
 
 These are only a starting point; you are welcome to write additional tests if you would like.
